@@ -73,42 +73,42 @@ L.GeoJSON.VT = L.GridLayer.extend({
             // --------------------------------- Land Sizes ------------------------------- //
             //1x1 Land parcel
             if (Layer == "H 1X1 HATCH") {
-                ctx.fillStyle = "#008DC9";
+                ctx.fillStyle = "#3A0823";
                 var color = this.setOpacity("#c9940d", "#c9940d");
                 ctx.fillStyle = color;
             }
 
             //2x2 Land parcel
             else if (Layer == "H 2X2 HATCH") {
-                ctx.fillStyle = "#00587D";
+                ctx.fillStyle = "#3A0823";
                 var color = this.setOpacity("#b50b0b", "#b50b0b");
                 ctx.fillStyle = color;
             }
 
             //4x4 Land parcel
             else if (Layer == "H 4X4 HATCH") {
-                ctx.fillStyle = "#482AFF";
+                ctx.fillStyle = "#3A0823";
                 var color = this.setOpacity("#26cafc", "#26cafc");
                 ctx.fillStyle = color;
             }
 
             //8x8 Land parcel
             else if (Layer == "H 8X8 HATCH") {
-                ctx.fillStyle = "#424AFF";
+                ctx.fillStyle = "#3A0823";
                 var color = this.setOpacity("#6a059a", "#6a059a");
                 ctx.fillStyle = color;
             }
 
             //16x16 Land parcel
             else if (Layer == "H 16X16 HATCH") {
-                ctx.fillStyle = "#5C8AFF";
+                ctx.fillStyle = "#3A0823";
                 var color = this.setOpacity("#ae1a77", "#ae1a77");
                 ctx.fillStyle = color;
             }
 
             //32x32 Land parcel
             else if (Layer == "H 32X32 HATCH") {
-                ctx.fillStyle = "#687cde";
+                ctx.fillStyle = "#3A0823";
                 var color = this.setOpacity("#687cde", "#687cde");
                 ctx.fillStyle = color;
             }
@@ -118,14 +118,14 @@ L.GeoJSON.VT = L.GridLayer.extend({
 
             //artificial Lake
             else if (Layer == "H-ART WATER") {
-                ctx.fillStyle = "#72A4DA";
+                ctx.fillStyle = "#0B558A";
                 var color = this.setOpacity("#a5c4ca", "#a5c4ca");
                 ctx.fillStyle = color;
             }
 
             //Forest
             else if (Layer == "H-DARK GREEN") {
-                ctx.fillStyle = "#288A5B";
+                ctx.fillStyle = "#00355B";
                 var color = this.setOpacity("#81a28a", "#81a28a");
                 ctx.fillStyle = color;
             }
@@ -146,14 +146,14 @@ L.GeoJSON.VT = L.GridLayer.extend({
 
             //Base and garden
             else if (Layer == "H-LIGHT GREEN") {
-                ctx.fillStyle = "#2A292E";
+                ctx.fillStyle = "#363738";
                 var color = this.setOpacity("#b2caa8", "#b2caa8");
                 ctx.fillStyle = color;
             }
 
             //lakes pounds
             else if (Layer == "H-NAT WATER") {
-                ctx.fillStyle = "#72a4da";
+                ctx.fillStyle = "#00355B";
                 var color = this.setOpacity("#7d93a1", "#7d93a1");
                 ctx.fillStyle = color;
             }
@@ -174,14 +174,14 @@ L.GeoJSON.VT = L.GridLayer.extend({
 
             //beaches
             else if (Layer == "H-SAND") {
-                ctx.fillStyle = "#A9AF8E";
+                ctx.fillStyle = "#7C8261";
                 var color = this.setOpacity("#dedbb3", "#dedbb3");
                 ctx.fillStyle = color;
             }
 
             //Soil Land
             else if (Layer == "H-SOIL LAND") {
-                ctx.fillStyle = "#8D6C2D";
+                ctx.fillStyle = "#513F1D";
                 var color = this.setOpacity("#beac98", "#beac98");
                 ctx.fillStyle = color;
             } else {
