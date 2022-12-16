@@ -153,7 +153,7 @@ L.GeoJSON.VT = L.GridLayer.extend({
 
             //lakes pounds
             else if (Layer == "H-NAT WATER") {
-                ctx.fillStyle = "#72a4da";
+                ctx.fillStyle = "#284D59";
                 var color = this.setOpacity("#7d93a1", "#7d93a1");
                 ctx.fillStyle = color;
             }
