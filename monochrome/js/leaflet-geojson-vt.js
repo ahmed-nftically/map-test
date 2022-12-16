@@ -118,14 +118,14 @@ L.GeoJSON.VT = L.GridLayer.extend({
 
             //artificial Lake
             else if (Layer == "H-ART WATER") {
-                ctx.fillStyle = "#284D59";
+                ctx.fillStyle = "#264669";
                 var color = this.setOpacity("#a5c4ca", "#a5c4ca");
                 ctx.fillStyle = color;
             }
 
             //Forest
             else if (Layer == "H-DARK GREEN") {
-                ctx.fillStyle = "#288A5B";
+                ctx.fillStyle = "#125937";
                 var color = this.setOpacity("#81a28a", "#81a28a");
                 ctx.fillStyle = color;
             }
@@ -174,14 +174,14 @@ L.GeoJSON.VT = L.GridLayer.extend({
 
             //beaches
             else if (Layer == "H-SAND") {
-                ctx.fillStyle = "#A9AF8E";
+                ctx.fillStyle = "#7C8261";
                 var color = this.setOpacity("#dedbb3", "#dedbb3");
                 ctx.fillStyle = color;
             }
 
             //Soil Land
             else if (Layer == "H-SOIL LAND") {
-                ctx.fillStyle = "#8D6C2D";
+                ctx.fillStyle = "#513F1D";
                 var color = this.setOpacity("#beac98", "#beac98");
                 ctx.fillStyle = color;
             } else {
