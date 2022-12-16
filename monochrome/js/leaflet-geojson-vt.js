@@ -118,7 +118,7 @@ L.GeoJSON.VT = L.GridLayer.extend({
 
             //artificial Lake
             else if (Layer == "H-ART WATER") {
-                ctx.fillStyle = "#72A4DA";
+                ctx.fillStyle = "#284D59";
                 var color = this.setOpacity("#a5c4ca", "#a5c4ca");
                 ctx.fillStyle = color;
             }
