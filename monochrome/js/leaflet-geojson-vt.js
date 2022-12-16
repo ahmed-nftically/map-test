@@ -146,7 +146,7 @@ L.GeoJSON.VT = L.GridLayer.extend({
 
             //Base and garden
             else if (Layer == "H-LIGHT GREEN") {
-                ctx.fillStyle = "#2A292E";
+                ctx.fillStyle = "#363738";
                 var color = this.setOpacity("#b2caa8", "#b2caa8");
                 ctx.fillStyle = color;
             }
