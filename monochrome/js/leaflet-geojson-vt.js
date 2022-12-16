@@ -125,7 +125,7 @@ L.GeoJSON.VT = L.GridLayer.extend({
 
             //Forest
             else if (Layer == "H-DARK GREEN") {
-                ctx.fillStyle = "#125937";
+                ctx.fillStyle = "#00355B";
                 var color = this.setOpacity("#81a28a", "#81a28a");
                 ctx.fillStyle = color;
             }
@@ -153,7 +153,7 @@ L.GeoJSON.VT = L.GridLayer.extend({
 
             //lakes pounds
             else if (Layer == "H-NAT WATER") {
-                ctx.fillStyle = "#0B558A";
+                ctx.fillStyle = "#00355B";
                 var color = this.setOpacity("#7d93a1", "#7d93a1");
                 ctx.fillStyle = color;
             }
